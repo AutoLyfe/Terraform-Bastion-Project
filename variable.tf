@@ -7,14 +7,14 @@
 variable "prefix" {
   description = "Prefix to append to all resource names"
   type        = string
-  default     = "collabnix"
+  default     = "Demo"
 }
 
 variable "tags" {
   description = "Resouce tags"
   type        = map(string)
   default = {
-    "project"       = "Collabnix"
+    "project"       = "Demo"
     "deployed_with" = "Terraform"
   }
 }
